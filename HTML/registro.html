@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <section>
+        <div id="contenedor-registro">
+            <h1>Registro</h1>
+            <form name="registro">
+                <h2>¿Tiene interés en alguno de nuestros cursos?</h2>
+                <div id="contenedor-inputs">
+                    <div id="cont-cedForm">
+                        <input type="number" id="cedula" name="cedula" placeholder="Introduzca su número de cédula">
+                        <div id="ced-chk"></div>
+                    </div>
+                    <div id="cont-nomForm">
+                        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
+                        <div id="nom-chk"></div>
+                    </div>
+                    <div id="cont-emaForm">
+                        <input type="email" id="email" name="email" placeholder="Introduzca una dirección de correo electrónico">
+                        <div id="ema-chk"></div>
+                    </div>
+                </div>
+                <h3>Indica el área de conocimiento de su interés:</h3>
+                <div id="contenedor-selects">
+                    <h4>Áreas de estudios</h4>
+                    <div id="cont-listaAreas">
+                        <select name="listaAreas" id="listaAreas">
+                            <!-- PARA PROBAR -->
+                            <option id="" value="XX">Seleccione un área</option>
+                        </select>
+                        <div id="listaAreas-chk"></div>
+                    </div>
+                    <h4>Cursos especializados</h4>
+                    <div id="cont-listaCursos">
+                        <select name="listaCursos" id="listaCursos">
+                            <!-- PARA PROBAR -->
+                            <option  class="opcionesCursos" value="YY">Seleccione un curso</option>
+                        </select>
+                        <div id="listaCursos-chk"></div>
+                    </div>
+                </div>
+                <button id="btn-registrar" style="display: none;">registrar</button>
+            </form>
+        </div>
+    </section>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../JQ/jquery-3.6.1.min.js"></script>
+    <script src="../JS/registro.js"></script>
+</body>
+</html>

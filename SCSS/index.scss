@@ -1,0 +1,96 @@
+// IMPORTS
+
+// DECLARACION DE VARIABLES
+$azulOscuro: #004E8A;
+$azulClaro: #007BFF;
+$naranja: #F14810;
+$verde: #28A745;
+
+// GENERALES
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+// HEADER
+header {
+    background-color: $azulOscuro;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+    img {
+        width: 127px;
+        margin-left: 6%;
+        transition: all 0.5s 0s ease;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    #navBar {
+        width: 50%;
+        margin-right: 3%;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                margin-right: 4%;
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+                color: white;
+                text-transform: capitalize;
+                font-size: 1.25em;
+                font-weight: 500;
+                border-radius: 8px;
+                transition: all 0.5s 0s ease;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                &:active {
+                    text-decoration: underline;
+                }
+
+                img {
+                    margin-right: 7%;
+                    width: 25px;
+                }
+            }
+        }
+    }
+}
+
+// MAIN
+main {
+    height: 78vh;
+    background: url(../IMG/logo-color-cadif1.svg) center center no-repeat;
+    background-size: 35%;
+
+    #contenido {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+}
+
+// FOOTER
+@import "footerOsman";
+
+footer {
+    background-color: $azulOscuro;
+}
