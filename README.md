@@ -19,3 +19,14 @@ FrontEnd Web alternative to the company CADI F1, using the data obtained from th
 4. It is validated that the form data is not empty before sending it. Show validation error messages with **SweetAlert**. When everything is valid, a *confirm* is displayed using **SweetAlert**. If the user answers yes, using the **jQuery $.post method**, the data is sent to the **ENDPOINT** https://api.cadif1.com/test.
 
 5. It has been programmed that if the registration is successful, a success message is displayed and the form is cleared, but if the registration is not successful, an error message is displayed and the form is not cleared. Error messages are displayed using **SweetAlert**.
+
+### Technologies:
+                    
+| ![Javascript](https://i.imgur.com/VLepSKY.png "Javascript") Javascript | ![HTML 5](https://i.imgur.com/QmbHEsR.png "HTML 5") HTML 5 | ![CSS 3](https://i.imgur.com/O6lJ8iB.png "CSS 3") CSS 3
+| ------------- | ------------- | ------------- |
+
+| ![jQuery](https://i.imgur.com/EUYnMSA.png "jQuery") jQuery | ![SASS](https://i.imgur.com/VQyrdlo.png "SASS") SASS | ![Ajax](https://i.imgur.com/vl8WeLB.png "Ajax")
+| ------------- | ------------- | ------------- |
+
+| ![SweetAlert](https://i.imgur.com/SgnATuV.png "SweetAlert")
+| ------------- |
